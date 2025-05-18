@@ -21,13 +21,16 @@ public class Semana_1_Practica {
         //DECLARAMOS LAS VARIABLES
         
         String lectura; 
+        String lectura2;
         int edad;
         String nombre;
-        
+        double salario;
+         
         // LAS PONEMOS VACIAS 
         
         edad=0; 
         nombre=" ";
+        salario=0;
         
         //MENSAJE DE BIENVENIDA 
         JOptionPane.showMessageDialog(null, "BIENVENIDO AL CUESTIONARIO PERSONAL");
@@ -36,14 +39,17 @@ public class Semana_1_Practica {
         
         nombre = JOptionPane.showInputDialog("Digite su nombre");
         lectura = JOptionPane.showInputDialog("Digite su edad");
-                 
-        // Nuevo valor de Edad 
+        lectura2 = JOptionPane.showInputDialog("Digite su salario");   
+        
+        // Nuevo valor de Edad y salario 
+        
         edad = Integer.parseInt(lectura);
+        salario = Integer.parseInt(lectura2);
         
         //Mostramos los datos obtenidos 
         
-        JOptionPane.showMessageDialog(null, "Esta es su edad digitada"+ " " + edad + " " + "\n"+ 
-               "Su nombre es"+ " "+ nombre);
+        JOptionPane.showMessageDialog(null, "Su nombre es"+ " "+ nombre + "Esta es su edad digitada"+ " " + edad + " " + "\n"+ 
+              "Su salario es de:" + " "+ salario);
 
   }  
 }
