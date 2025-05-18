@@ -18,14 +18,19 @@ public class C2PROGRA_CLASE1 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        // DECLARAMOS LAS VARIABLES 
         int variable1;
         String variable2;
         double variable3;
         long variable4=50;
         
+        // lE ASIGNAMOS VALOR A LAS VARIABLESD DECLARADAS 
+        
         variable1=1;
         variable2="esto es un string";
         variable3=1.5;
+        
+        // EBSEÑAMOS A NIVEL DE SISTEMA VARIABLES 
         
         System.out.println("hhshshdh");
         JOptionPane.showMessageDialog(null, "esto son los valores de variable" +"\n"+
@@ -33,9 +38,10 @@ public class C2PROGRA_CLASE1 {
         
         String nuevaVariable=null; // no es lo mismo que String nuevaVariable=n" ";
         
-        nuevaVariable = JOptionPane.showInputDialog(null, nuevaVariable);
+        nuevaVariable = JOptionPane.showInputDialog(null, nuevaVariable); /* Esta Linea es un ejemplo de pedir 
+        una variable en pantalla */
         
-        JOptionPane.showInternalMessageDialog(null, nuevaVariable);
+        JOptionPane.showInternalMessageDialog(null, nuevaVariable); // AQUI AL INSTANTE IMPRIMIMOS ESA VARIABLE EN PANTALLA
     }
     
 }
