@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package semana_1_practica;
+package Semana1_Cuestionario;
 
 import javax.swing.JOptionPane;
 
@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author ashle
  */
-public class Semana_1_Practica {
+public class Cuestionario {
 
     /**
      * @param args the command line arguments
