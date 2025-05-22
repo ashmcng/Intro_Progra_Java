@@ -61,11 +61,70 @@ public class C2_Clase2 {
             JOptionPane.showMessageDialog(null, "Estimado/a usuario: "+ Nombre + " " + "Usted no puede votar");
         }
         
+        /// IF ANIDADO DIAS DE LA SEMANA
+        ///
+        /////Mensaje de bienvenida
+        
+        JOptionPane.showMessageDialog(null, "BIENVENIDO AL PROGRAMA QUE DETERMINA EL DIA DE LA SEMANA");
+        
+        //variables 
+        
+        int dia; 
+        String lectura1;
+        
+        // inicializamos 
+        
+        lectura1 = "";
+        dia = 0; 
+        
+        // inicio programa
+        
+        lectura1 = JOptionPane.showInputDialog("Digite el numero de del dia de la semana"); // digita el dia de la semana
+        
+        dia = Integer.parseInt(lectura1); // pasamos lectura a int dia 
+        
+        // inicio if 
+        
+        if ( dia == 1 ){
+            
+            JOptionPane.showMessageDialog(null, "El dia de la semana es lunes");
+        
+        } else if (dia == 2){
+            JOptionPane.showMessageDialog(null, "El dia de la semana es Martes");
+            
+        } else if (dia == 3){
+            JOptionPane.showMessageDialog(null, "El dia de la semana es Miercoles");
+            
+        } else if (dia == 4){
+            JOptionPane.showMessageDialog(null, "El dia de la semana es Jueves");
+            
+        } else if (dia == 5){
+            JOptionPane.showMessageDialog(null, "El dia de la semana es Viernes");
+            
+        } else if (dia == 6){
+            JOptionPane.showMessageDialog(null, "El dia de la semana es Sabado");
+            
+        } else if (dia == 7){
+            JOptionPane.showMessageDialog(null, "El dia de la semana es Domingo");
+            
+        } 
+        
+        if (dia !=6 && dia != 7){
+            
+             JOptionPane.showMessageDialog(null, "Es un dia laboral");
+        } else { 
+            JOptionPane.showMessageDialog(null, "No es un dia laboral");
         }
+        }
+    
+    
+          
+        }
+       
            
         
         
         
-    }
+    
     
 
