@@ -62,7 +62,7 @@ public class Sistema_Notas_If {
         
         // OUTPUT 
         
-        JOptionPane.showMessageDialog(null, "Estimado/a Estudiante:  " + Nombre + ", " + "en la materia: " + Materia + ", " + "su nota obtenida fue:  " + nota + "\n" +
+        JOptionPane.showMessageDialog(null, "Estimado/a Estudiante:  " + Nombre + ", " + "en la materia: " + Materia + "bra, " + "su nota obtenida fue:  " + nota + "\n" +
                 ", "+ "lo que significa que usted tiene la  " + Estado);
         
     }
