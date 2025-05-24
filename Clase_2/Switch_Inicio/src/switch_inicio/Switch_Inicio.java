@@ -36,30 +36,30 @@ public class Switch_Inicio {
 
         dia  = Integer.parseInt(lectura1); // pasamos lectura a int dia 
 
-       switch(dia) {
-    
-        case 1: 
-          JOptionPane.showMessageDialog(null, "El dia de la semana es Lunes");
-        break; 
-        case 2: 
-          JOptionPane.showMessageDialog(null, "El dia de la semana es Martes");
-        break; 
-        case 3: 
-          JOptionPane.showMessageDialog(null, "El dia de la semana es Miercoles");
-        break; 
-        case 4: 
-          JOptionPane.showMessageDialog(null, "El dia de la semana es Jueves");
-        break; 
-        case 5: 
-          JOptionPane.showMessageDialog(null, "El dia de la semana es Viernes");
-        break; 
-        case 6: 
-          JOptionPane.showMessageDialog(null, "El dia de la semana es Sabado");
-        break; 
-        case 7: 
-          JOptionPane.showMessageDialog(null, "El dia de la semana es Domingo");
-        break; 
-    }
+        switch (dia) {
+
+            case 1:
+                JOptionPane.showMessageDialog(null, "El dia de la semana es Lunes");
+                break;
+            case 2:
+                JOptionPane.showMessageDialog(null, "El dia de la semana es Martes");
+                break;
+            case 3:
+                JOptionPane.showMessageDialog(null, "El dia de la semana es Miercoles");
+                break;
+            case 4:
+                JOptionPane.showMessageDialog(null, "El dia de la semana es Jueves");
+                break;
+            case 5:
+                JOptionPane.showMessageDialog(null, "El dia de la semana es Viernes");
+                break;
+            case 6:
+                JOptionPane.showMessageDialog(null, "El dia de la semana es Sabado");
+                break;
+            case 7:
+                JOptionPane.showMessageDialog(null, "El dia de la semana es Domingo");
+                break;
+        }
        
         if (dia !=6 && dia != 7){
             
