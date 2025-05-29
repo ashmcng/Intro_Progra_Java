@@ -56,10 +56,11 @@ public class Prectica_Evaluada1_AshleyMc {
                 
         // Calculos 
         
-        Seguro_SEM = Salario_Bruto - (Salario_Bruto * 9.25/100); // Calculamos la deducion del seguro de enfermedad y maternidad 
-        Seguro_IVM = Salario_Bruto - (Salario_Bruto * 5.08/100); // Calculamos la deducion del seguro de vida y muerte
+        Seguro_SEM = Salario_Bruto - (Salario_Bruto * 0.0925); // Calculamos la deducion del seguro de enfermedad y maternidad 
+        Seguro_IVM = Salario_Bruto - (Salario_Bruto * 0.0508); // Calculamos la deducion del seguro de vida y muerte
         neto = Salario_Bruto - (Seguro_IVM + Seguro_SEM);  
-        resta = ((neto * 2.5)/100);
+        System.out.println("nry0" +neto);
+        resta = ((neto * 0.025));
         Asosacion = neto - resta; // Calculamos la deducion lo que se debe a la asosacion 
         Pago_Total = Salario_Bruto + Seguro_IVM + Asosacion; 
         Total_CCSS = Seguro_IVM + Seguro_SEM; 
