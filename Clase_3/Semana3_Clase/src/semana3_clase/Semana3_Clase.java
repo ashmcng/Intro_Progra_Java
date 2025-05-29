@@ -4,6 +4,8 @@
  */
 package semana3_clase;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author ashle
@@ -15,6 +17,29 @@ public class Semana3_Clase {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        // USO DE FOR 
+        
+        /*
+        for (int i = 10; i >= 0; i--) {
+            
+            JOptionPane.showInternalMessageDialog(null, "El valor de i es  "+ i);
+            
+        }
+         */
+        /*
+        int i = 10; 
+        while (i>=0) {
+           JOptionPane.showInternalMessageDialog(null, "El valor de i es  "+ i); 
+           i--; 
+        }
+         */
+        String Salida = "No";
+        while (Salida.equals("No")) {
+            Salida = JOptionPane.showInputDialog(null, "Digite Si si desea salir");
+        }
     }
-    
 }
+ 
+    
+
