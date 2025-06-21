@@ -16,6 +16,8 @@ public class Estudiantes {
     private String nombre; 
     private String universidad;
     private Carrera carrera; 
+    
+    // startup seter and getter 
 
     public String getCodigoEstudiante() {
         return codigoEstudiante;

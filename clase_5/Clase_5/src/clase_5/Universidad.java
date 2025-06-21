@@ -15,6 +15,9 @@ public class Universidad {
     private String codigoU;
     public String nombreU;
     
+    
+    // method practice 
+    
     public void publicidad(int cantidad) {
         for (int i = 0; i < cantidad; i++) {
             JOptionPane.showMessageDialog(null, "Esta es la publicidad numero" + i +

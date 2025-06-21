@@ -18,6 +18,9 @@ public class Carrera {
     private boolean maestria; 
     private boolean doctorado; 
     private double costoCarrera; 
+    
+    // set and getter way to inicialiace all variabables at once without coding it itself. 
+    
 
     public String getNombreCarrera() {
         return nombreCarrera;
@@ -83,5 +86,7 @@ public class Carrera {
         this.costoCarrera = costoCarrera;
     }
     
+    
+    /// end of inizialation variables, 
  
 }
